@@ -10,6 +10,7 @@ namespace SportsStore.Models
 
         }
         public DbSet<Product> Products => Set<Product>();
+        public DbSet<Order> Orders => Set<Order>();
         public static readonly LoggerFactory factory = new LoggerFactory(new[] { new DebugLoggerProvider() });
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
