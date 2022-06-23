@@ -1,27 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AspDemos\\SportsStore\\SportsStore\\SportsStore.csproj": {}
+    "C:\\Users\\Larissa\\Desktop\\SportsStore\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "E:\\AspDemos\\SportsStore\\SportsStore\\SportsStore.csproj": {
+    "C:\\Users\\Larissa\\Desktop\\SportsStore\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AspDemos\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\Larissa\\Desktop\\SportsStore\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "E:\\AspDemos\\SportsStore\\SportsStore\\SportsStore.csproj",
-        "packagesPath": "D:\\nuget\\packages",
-        "outputPath": "E:\\AspDemos\\SportsStore\\SportsStore\\obj\\",
+        "projectPath": "C:\\Users\\Larissa\\Desktop\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "packagesPath": "C:\\Users\\Larissa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Larissa\\Desktop\\SportsStore\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Larissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "D:\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -79,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
