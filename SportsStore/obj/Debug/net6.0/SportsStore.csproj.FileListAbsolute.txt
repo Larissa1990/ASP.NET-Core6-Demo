@@ -137,3 +137,8 @@ C:\Users\Larissa\Desktop\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.AspN
 C:\Users\Larissa\Desktop\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Larissa\Desktop\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Larissa\Desktop\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+E:\AspDemos\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\AspDemos\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\AspDemos\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\AspDemos\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\AspDemos\SportsStore\SportsStore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
