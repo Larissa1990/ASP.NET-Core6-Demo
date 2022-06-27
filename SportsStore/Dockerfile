@@ -1,10 +1,10 @@
-﻿FROM mcr.microsoft.com/dotnet/aspnet:6.0
+﻿FROM mcr.microsoft.com/dotnet/core/aspnet:6.0
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
 COPY /bin/Release/net6.0/publish/ SportsStore/
 
-ENV ASPNETCORE_ENVIRONMENT Product
-ENV Logging_Console_FormatterName=Simple
+ENV ASPNETCORE_ENVIRONMENT Production
 
 EXPOSE 5000
 WORKDIR /SportsStore
-ENTRYPOINT["dotnet","SportsStore.dll","--urls=http://0.0.0.0:5000"]
+ENTRYPOINT ["dotnet", "SportsStore.dll",  "--urls=http://0.0.0.0:5000"]
